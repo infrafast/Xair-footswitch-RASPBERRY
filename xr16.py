@@ -123,11 +123,7 @@ def asyncRxThread(portNum):
                                         
                 if (msg[0]==tapCommand):
                     #value 1.0 = 3000 ms
-<<<<<<< HEAD
-                    delaytime=(msg[2]*3000)*2
-=======
-                    delaytime=(msg[2]*3000)*8
->>>>>>> parent of d0d9a3f... normal tap
+                    delaytime=(msg[2]*3000)
     print("asyncRxThread exit ")
 
 def allLedsOff():
@@ -416,11 +412,8 @@ device = None
 txSocket = None
 setupGPIO()
 
-<<<<<<< HEAD
-print ("Xair footswitch v0.21")
-=======
-print ("Xair footswitch v0.27")
->>>>>>> 8d4f14900ed8f39ffa6377d3f0634e9f20fae857
+
+print ("Xair footswitch v0.3")
 print ("Press Ctrl+Z to exit")
 print ("")
     
