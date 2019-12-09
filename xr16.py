@@ -249,7 +249,7 @@ def main(args):
     global txSocket
     global delaytime
     
-    print ("Xair footswitch v0.1")
+    print ("Xair footswitch v0.2")
     print ("Press Ctrl+Z to exit")
     print ("")
              
