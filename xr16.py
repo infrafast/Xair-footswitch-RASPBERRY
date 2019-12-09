@@ -207,7 +207,7 @@ def setupGPIO():
   
 def main(args):  
     global messageLed, messageLedProgress, exit
-
+   
     #this is the time that the tap timer was initialised    
     startTime = long(0)  
 
@@ -247,12 +247,7 @@ def main(args):
 
     global exit
     global txSocket
-    global delaytime
-    
-    print ("Xair footswitch v0.21")
-    print ("Press Ctrl+Z to exit")
-    print ("")
-             
+    global delaytime           
      
     while not exit:
         try:
@@ -416,6 +411,12 @@ messageLedProgress=0
 device = None
 txSocket = None
 setupGPIO()
+
+print ("Xair footswitch v0.21")
+print ("Press Ctrl+Z to exit")
+print ("")
+    
+
 
 ledBarThreadHandle = Thread(target=ledBarControl,args=("0",))    
 ledBarThreadHandle.start()
