@@ -123,7 +123,7 @@ def asyncRxThread(portNum):
                                         
                 if (msg[0]==tapCommand):
                     #value 1.0 = 3000 ms
-                    delaytime=(msg[2]*3000)*4
+                    delaytime=(msg[2]*3000)*8
     print("asyncRxThread exit ")
 
 def allLedsOff():
