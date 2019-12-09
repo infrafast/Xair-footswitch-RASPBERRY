@@ -123,7 +123,7 @@ def asyncRxThread(portNum):
                                         
                 if (msg[0]==tapCommand):
                     #value 1.0 = 3000 ms
-                    delaytime=(msg[2]*3000)/2
+                    delaytime=(msg[2]*3000)*2
     print("asyncRxThread exit ")
 
 def allLedsOff():
@@ -249,7 +249,7 @@ def main(args):
     global txSocket
     global delaytime
     
-    print ("Xair footswitch v0.2")
+    print ("Xair footswitch v0.21")
     print ("Press Ctrl+Z to exit")
     print ("")
              
