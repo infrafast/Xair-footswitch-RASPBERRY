@@ -411,7 +411,7 @@ device = None
 txSocket = None
 setupGPIO()
 
-print ("Xair footswitch v0.25")
+print ("Xair footswitch v0.26")
 print ("Press Ctrl+Z to exit")
 print ("")
     
