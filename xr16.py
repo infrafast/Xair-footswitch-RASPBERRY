@@ -122,7 +122,6 @@ def asyncRxThread(portNum):
                         channelLevel[i]=msg[2]
                                         
                 if (msg[0]==tapCommand):
-                    #value 1.0 = 3000 ms
                     delaytime=(msg[2]*3000)
     print("asyncRxThread exit ")
 
@@ -230,7 +229,8 @@ def main(args):
     #// interval time unrestricted
     rawtime = long(0)
     #// the global debounce time in ms for the foot switches    
-    debounce = long(200)  
+    #debounce = long(200)  
+    debounce = long(20)  
     time5 = long(0)
 
 
@@ -412,7 +412,7 @@ device = None
 txSocket = None
 setupGPIO()
 
-print ("Xair footswitch v0.22")
+print ("Xair footswitch v0.23")
 print ("Press Ctrl+Z to exit")
 print ("")
     
