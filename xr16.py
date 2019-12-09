@@ -123,7 +123,11 @@ def asyncRxThread(portNum):
                                         
                 if (msg[0]==tapCommand):
                     #value 1.0 = 3000 ms
+<<<<<<< HEAD
                     delaytime=(msg[2]*3000)*2
+=======
+                    delaytime=(msg[2]*3000)*8
+>>>>>>> parent of d0d9a3f... normal tap
     print("asyncRxThread exit ")
 
 def allLedsOff():
