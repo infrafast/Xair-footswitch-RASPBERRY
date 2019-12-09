@@ -303,7 +303,7 @@ def main(args):
                                     sendOSC(veryLongPushMsgString[0],channelLevel[0]+levelIncrement) 
                                     levelIncrement=levelIncrement+0.0005
                             if (previousInput[0]==False and previousInput[1]==False):
-                                #exit = True
+                                exit = True
                                 print("Quit")
                                                              
                 # wait to "debounce" the input
