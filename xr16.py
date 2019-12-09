@@ -229,8 +229,7 @@ def main(args):
     #// interval time unrestricted
     rawtime = long(0)
     #// the global debounce time in ms for the foot switches    
-    #debounce = long(200)  
-    debounce = long(20)  
+    debounce = long(200)  
     time5 = long(0)
 
 
@@ -412,7 +411,7 @@ device = None
 txSocket = None
 setupGPIO()
 
-print ("Xair footswitch v0.23")
+print ("Xair footswitch v0.25")
 print ("Press Ctrl+Z to exit")
 print ("")
     
