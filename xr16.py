@@ -417,6 +417,9 @@ txSocket = None
 setupGPIO()
 
 print ("Xair footswitch v0.21")
+=======
+print ("Xair footswitch v0.27")
+>>>>>>> 8d4f14900ed8f39ffa6377d3f0634e9f20fae857
 print ("Press Ctrl+Z to exit")
 print ("")
     
