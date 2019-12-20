@@ -1,7 +1,5 @@
 # Xair-footswitch
 
-with this you can command your XAir console (in my case a XR16) with a 3 button footswitch  non latching (temporary) and a raspberry. Sends OSC commands over ethernet. 
-
 
 button 1 & 2 command the mutes from fx 1 to fx 4 and volume channel
 button 3 command the tap delay of fx1
