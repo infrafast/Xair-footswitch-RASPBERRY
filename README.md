@@ -1,4 +1,4 @@
-# Xair-footswitch
+# Xair-footswitch RASPBERRY - Python
 
 
 button 1 & 2 command the mutes from fx 1 to fx 4 and volume channel
