@@ -1,5 +1,6 @@
 # Xair-footswitch RASPBERRY - Python
 
+You can visit https://github.com/infrafast/Xair-OSC-Wifi-footswitch for the Arduino + OLED screen version of this project
 
 button 1 & 2 command the mutes from fx 1 to fx 4 and volume channel
 button 3 command the tap delay of fx1
